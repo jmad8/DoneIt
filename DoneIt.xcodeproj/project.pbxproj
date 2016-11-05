@@ -12,6 +12,8 @@
 		04AE8E5C1DCE538400778B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AE8E5A1DCE538400778B6B /* Main.storyboard */; };
 		04AE8E5E1DCE538400778B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AE8E5D1DCE538400778B6B /* Assets.xcassets */; };
 		04AE8E611DCE538400778B6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AE8E5F1DCE538400778B6B /* LaunchScreen.storyboard */; };
+		04BA18041DCE54DF000B30A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04BA18031DCE54DF000B30A7 /* GoogleService-Info.plist */; };
+		E38FBA29B969B1086571F08E /* Pods_DoneIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695C0D1706832DC9B83478E2 /* Pods_DoneIt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,10 @@
 		04AE8E5D1DCE538400778B6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04AE8E601DCE538400778B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04AE8E621DCE538400778B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BA18031DCE54DF000B30A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		695C0D1706832DC9B83478E2 /* Pods_DoneIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoneIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8133F852308BD995D687E48 /* Pods-DoneIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoneIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoneIt/Pods-DoneIt.release.xcconfig"; sourceTree = "<group>"; };
+		F1EAD09B7967ADD44923CD03 /* Pods-DoneIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoneIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoneIt/Pods-DoneIt.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E38FBA29B969B1086571F08E /* Pods_DoneIt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				04AE8E551DCE538400778B6B /* DoneIt */,
 				04AE8E541DCE538400778B6B /* Products */,
+				8B93D9170975AFC25884842D /* Pods */,
+				85637419F1C2273936E526C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +69,26 @@
 				04AE8E5D1DCE538400778B6B /* Assets.xcassets */,
 				04AE8E5F1DCE538400778B6B /* LaunchScreen.storyboard */,
 				04AE8E621DCE538400778B6B /* Info.plist */,
+				04BA18031DCE54DF000B30A7 /* GoogleService-Info.plist */,
 			);
 			path = DoneIt;
+			sourceTree = "<group>";
+		};
+		85637419F1C2273936E526C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				695C0D1706832DC9B83478E2 /* Pods_DoneIt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B93D9170975AFC25884842D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1EAD09B7967ADD44923CD03 /* Pods-DoneIt.debug.xcconfig */,
+				E8133F852308BD995D687E48 /* Pods-DoneIt.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04AE8E651DCE538400778B6B /* Build configuration list for PBXNativeTarget "DoneIt" */;
 			buildPhases = (
+				3157C08207724F9D35AA99E0 /* [CP] Check Pods Manifest.lock */,
 				04AE8E4F1DCE538300778B6B /* Sources */,
 				04AE8E501DCE538300778B6B /* Frameworks */,
 				04AE8E511DCE538300778B6B /* Resources */,
+				8B945B34DA1443DE789CF22B /* [CP] Embed Pods Frameworks */,
+				FD91DD052594C0CC5B1962C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,12 +155,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				04AE8E611DCE538400778B6B /* LaunchScreen.storyboard in Resources */,
+				04BA18041DCE54DF000B30A7 /* GoogleService-Info.plist in Resources */,
 				04AE8E5E1DCE538400778B6B /* Assets.xcassets in Resources */,
 				04AE8E5C1DCE538400778B6B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3157C08207724F9D35AA99E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B945B34DA1443DE789CF22B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoneIt/Pods-DoneIt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD91DD052594C0CC5B1962C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoneIt/Pods-DoneIt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04AE8E4F1DCE538300778B6B /* Sources */ = {
@@ -259,6 +338,7 @@
 		};
 		04AE8E661DCE538400778B6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1EAD09B7967ADD44923CD03 /* Pods-DoneIt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4FM6U54YA4;
@@ -272,6 +352,7 @@
 		};
 		04AE8E671DCE538400778B6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8133F852308BD995D687E48 /* Pods-DoneIt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4FM6U54YA4;
@@ -302,6 +383,7 @@
 				04AE8E671DCE538400778B6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

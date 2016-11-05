@@ -1,0 +1,6 @@
+framework module Pods_DoneIt {
+  umbrella header "Pods-DoneIt-umbrella.h"
+
+  export *
+  module * { export * }
+}
