@@ -1,10 +1,10 @@
 PODS:
-  - Firebase (3.8.0):
-    - Firebase/Core (= 3.8.0)
-  - Firebase/Core (3.8.0):
+  - Firebase (3.9.0):
+    - Firebase/Core (= 3.9.0)
+  - Firebase/Core (3.9.0):
     - FirebaseAnalytics (= 3.5.1)
     - FirebaseCore (= 3.4.4)
-  - Firebase/Database (3.8.0):
+  - Firebase/Database (3.9.0):
     - Firebase/Core
     - FirebaseDatabase (= 3.1.0)
   - FirebaseAnalytics (3.5.1):
@@ -25,13 +25,15 @@ PODS:
   - GoogleToolboxForMac/Defines (2.1.0)
   - GoogleToolboxForMac/NSData+zlib (2.1.0):
     - GoogleToolboxForMac/Defines (= 2.1.0)
+  - JTAppleCalendar (6.0.1)
 
 DEPENDENCIES:
   - Firebase
   - Firebase/Database
+  - JTAppleCalendar (~> 6.0)
 
 SPEC CHECKSUMS:
-  Firebase: fdbecadb7b5cbef2774852d4fa659b9daf11f2af
+  Firebase: ff77ffb77b317c3720fef57a60e9335cebf962e6
   FirebaseAnalytics: 6e58fc9b397664369ac7617fb0ba93fab6ba7b5b
   FirebaseCore: d0ed25f27b6f9158eccc439f1be6f92e81207e28
   FirebaseDatabase: 3ebb2edb6007c3f0f87b248f3fa212bde56a1468
@@ -39,7 +41,8 @@ SPEC CHECKSUMS:
   GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
   GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
   GoogleToolboxForMac: 2b2596cbb7186865e98cadf2b1e262d851c2b168
+  JTAppleCalendar: 7793cd7284a495ed72b0cad225c1be835eefa018
 
-PODFILE CHECKSUM: 39b9960e25149102a54213179ecf99aa898a2359
+PODFILE CHECKSUM: 3df216ffb3e907fc00c1da04492b2382d05521cb
 
 COCOAPODS: 1.1.0.beta.1

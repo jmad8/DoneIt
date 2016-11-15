@@ -3,10 +3,10 @@ import UIKit
 @IBDesignable
 class MultiLineTextField: UITextView, UITextViewDelegate, UIScrollViewDelegate, TextInputStylable {
     
-    private var _placeholderIsVisible = true
+    
     private var _defaultTextColor : UIColor!
     private var _defaultTextFont : UIFont?
-    
+    public var placeholderIsVisible = true
     public var border : UIView = UIView()
     
     @IBInspectable var borderColor : UIColor = UIColor.red {
@@ -21,7 +21,7 @@ class MultiLineTextField: UITextView, UITextViewDelegate, UIScrollViewDelegate, 
         }
     }
     
-    @IBInspectable var borderWidth : CGFloat = CGFloat(2.0) {
+    @IBInspectable var borderWidth : CGFloat = CGFloat(1.0) {
         didSet {
             updateBorderFrame()
         }
@@ -29,7 +29,7 @@ class MultiLineTextField: UITextView, UITextViewDelegate, UIScrollViewDelegate, 
     
     @IBInspectable var placeholder : String = "" {
         didSet{
-            if _placeholderIsVisible {
+            if placeholderIsVisible {
                 textColor = placeholderTextColor
                 text = placeholder
             }
@@ -38,7 +38,7 @@ class MultiLineTextField: UITextView, UITextViewDelegate, UIScrollViewDelegate, 
     
     @IBInspectable var placeholderTextColor : UIColor = UIColor.init(red: 0, green: 0, blue: 0, alpha: 0.15) {
         didSet {
-            if _placeholderIsVisible {
+            if placeholderIsVisible {
                 textColor = placeholderTextColor
             }
         }
@@ -68,27 +68,27 @@ class MultiLineTextField: UITextView, UITextViewDelegate, UIScrollViewDelegate, 
         addBorderLayer()
     }
     
+    override init(frame: CGRect, textContainer: NSTextContainer?) {
+        super.init(frame: frame, textContainer: textContainer)
+    }
+    
     func textViewDidBeginEditing(_ textView: UITextView) {
-        if _placeholderIsVisible && isFirstResponder {
+        if placeholderIsVisible && isFirstResponder {
             text = nil
             textColor = _defaultTextColor
             font = _defaultTextFont
-            _placeholderIsVisible = false
+            placeholderIsVisible = false
         }
         updateBorderColor(withColor: borderColorFocus)
     }
     
     func textViewDidEndEditing(_ textView: UITextView) {
         if text == nil || text.isEmpty {
-            _placeholderIsVisible = true
+            placeholderIsVisible = true
             textColor = placeholderTextColor
             font = UIFont(name: "Helvetica Neue", size: 17)
             text = placeholder
         }
         updateBorderColor(withColor: borderColor)
-    }
-    
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        updateBorderFrame(x: -scrollView.contentOffset.y)
     }
 }

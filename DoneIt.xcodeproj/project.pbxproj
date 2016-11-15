@@ -7,30 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0404A7D81DD7FE2200F17801 /* NewGoalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404A7D71DD7FE2200F17801 /* NewGoalTableViewController.swift */; };
+		043C50A81DD95B300094F3D3 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C50A71DD95B300094F3D3 /* CellView.swift */; };
+		043C50AD1DD965260094F3D3 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C50AC1DD965260094F3D3 /* UIColor.swift */; };
+		043F1D731DD9575700E48ED0 /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043F1D721DD9575700E48ED0 /* CellView.xib */; };
 		045BEFB31DCE5BB300BD2897 /* MultiLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BEFB21DCE5BB300BD2897 /* MultiLineTextField.swift */; };
 		045BEFB51DCE636500BD2897 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BEFB41DCE636500BD2897 /* CustomTextField.swift */; };
 		045BEFB81DCFE79A00BD2897 /* TextInputStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BEFB71DCFE79A00BD2897 /* TextInputStylable.swift */; };
+		0467E00A1DDA871700FCAB33 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E0091DDA871700FCAB33 /* Goal.swift */; };
+		0467E00E1DDAB18300FCAB33 /* InviteContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E00D1DDAB18300FCAB33 /* InviteContactViewController.swift */; };
 		04AE8E571DCE538400778B6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE8E561DCE538400778B6B /* AppDelegate.swift */; };
-		04AE8E591DCE538400778B6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE8E581DCE538400778B6B /* ViewController.swift */; };
 		04AE8E5C1DCE538400778B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AE8E5A1DCE538400778B6B /* Main.storyboard */; };
 		04AE8E5E1DCE538400778B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AE8E5D1DCE538400778B6B /* Assets.xcassets */; };
 		04AE8E611DCE538400778B6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AE8E5F1DCE538400778B6B /* LaunchScreen.storyboard */; };
 		04BA18041DCE54DF000B30A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04BA18031DCE54DF000B30A7 /* GoogleService-Info.plist */; };
+		04E8ACA81DD3F7ED00291F81 /* GoalSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8ACA71DD3F7ED00291F81 /* GoalSchedule.swift */; };
+		04E8ACAA1DD3F81000291F81 /* GoalRepeatType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8ACA91DD3F81000291F81 /* GoalRepeatType.swift */; };
+		04E8ACAD1DD3FC8100291F81 /* DaysOfTheWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8ACAC1DD3FC8100291F81 /* DaysOfTheWeek.swift */; };
+		04E8ACB01DD40ACF00291F81 /* GoalScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8ACAF1DD40ACF00291F81 /* GoalScheduleTableViewController.swift */; };
 		E38FBA29B969B1086571F08E /* Pods_DoneIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695C0D1706832DC9B83478E2 /* Pods_DoneIt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0404A7D71DD7FE2200F17801 /* NewGoalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGoalTableViewController.swift; sourceTree = "<group>"; };
+		043C50A71DD95B300094F3D3 /* CellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		043C50AC1DD965260094F3D3 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		043F1D721DD9575700E48ED0 /* CellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
 		045BEFB21DCE5BB300BD2897 /* MultiLineTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiLineTextField.swift; sourceTree = "<group>"; };
 		045BEFB41DCE636500BD2897 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		045BEFB71DCFE79A00BD2897 /* TextInputStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputStylable.swift; sourceTree = "<group>"; };
+		0467E0091DDA871700FCAB33 /* Goal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		0467E00D1DDAB18300FCAB33 /* InviteContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteContactViewController.swift; sourceTree = "<group>"; };
 		04AE8E531DCE538400778B6B /* DoneIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoneIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AE8E561DCE538400778B6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04AE8E581DCE538400778B6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04AE8E5B1DCE538400778B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04AE8E5D1DCE538400778B6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04AE8E601DCE538400778B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04AE8E621DCE538400778B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04BA18031DCE54DF000B30A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04E8ACA71DD3F7ED00291F81 /* GoalSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalSchedule.swift; sourceTree = "<group>"; };
+		04E8ACA91DD3F81000291F81 /* GoalRepeatType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalRepeatType.swift; sourceTree = "<group>"; };
+		04E8ACAC1DD3FC8100291F81 /* DaysOfTheWeek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysOfTheWeek.swift; sourceTree = "<group>"; };
+		04E8ACAF1DD40ACF00291F81 /* GoalScheduleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalScheduleTableViewController.swift; sourceTree = "<group>"; };
 		695C0D1706832DC9B83478E2 /* Pods_DoneIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoneIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8133F852308BD995D687E48 /* Pods-DoneIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoneIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoneIt/Pods-DoneIt.release.xcconfig"; sourceTree = "<group>"; };
 		F1EAD09B7967ADD44923CD03 /* Pods-DoneIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoneIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoneIt/Pods-DoneIt.debug.xcconfig"; sourceTree = "<group>"; };
@@ -48,11 +66,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043C50A91DD95CE90094F3D3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				043C50AC1DD965260094F3D3 /* UIColor.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		045BEFB11DCE5B9E00BD2897 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				045BEFB21DCE5BB300BD2897 /* MultiLineTextField.swift */,
 				045BEFB41DCE636500BD2897 /* CustomTextField.swift */,
+				043F1D721DD9575700E48ED0 /* CellView.xib */,
+				043C50A71DD95B300094F3D3 /* CellView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -86,10 +114,13 @@
 		04AE8E551DCE538400778B6B /* DoneIt */ = {
 			isa = PBXGroup;
 			children = (
+				043C50A91DD95CE90094F3D3 /* Extensions */,
+				04E8ACAB1DD3FC4300291F81 /* Enum */,
+				04E8ACA61DD3F7CA00291F81 /* Model */,
 				045BEFB61DCFE71B00BD2897 /* Protocols */,
 				045BEFB11DCE5B9E00BD2897 /* View */,
+				04E8ACAE1DD40AA800291F81 /* ViewController */,
 				04AE8E561DCE538400778B6B /* AppDelegate.swift */,
-				04AE8E581DCE538400778B6B /* ViewController.swift */,
 				04AE8E5A1DCE538400778B6B /* Main.storyboard */,
 				04AE8E5D1DCE538400778B6B /* Assets.xcassets */,
 				04AE8E5F1DCE538400778B6B /* LaunchScreen.storyboard */,
@@ -97,6 +128,34 @@
 				04BA18031DCE54DF000B30A7 /* GoogleService-Info.plist */,
 			);
 			path = DoneIt;
+			sourceTree = "<group>";
+		};
+		04E8ACA61DD3F7CA00291F81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04E8ACA71DD3F7ED00291F81 /* GoalSchedule.swift */,
+				0467E0091DDA871700FCAB33 /* Goal.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04E8ACAB1DD3FC4300291F81 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				04E8ACAC1DD3FC8100291F81 /* DaysOfTheWeek.swift */,
+				04E8ACA91DD3F81000291F81 /* GoalRepeatType.swift */,
+			);
+			name = Enum;
+			sourceTree = "<group>";
+		};
+		04E8ACAE1DD40AA800291F81 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04E8ACAF1DD40ACF00291F81 /* GoalScheduleTableViewController.swift */,
+				0404A7D71DD7FE2200F17801 /* NewGoalTableViewController.swift */,
+				0467E00D1DDAB18300FCAB33 /* InviteContactViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 		85637419F1C2273936E526C4 /* Frameworks */ = {
@@ -179,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043F1D731DD9575700E48ED0 /* CellView.xib in Resources */,
 				04AE8E611DCE538400778B6B /* LaunchScreen.storyboard in Resources */,
 				04BA18041DCE54DF000B30A7 /* GoogleService-Info.plist in Resources */,
 				04AE8E5E1DCE538400778B6B /* Assets.xcassets in Resources */,
@@ -242,10 +302,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				045BEFB51DCE636500BD2897 /* CustomTextField.swift in Sources */,
+				043C50AD1DD965260094F3D3 /* UIColor.swift in Sources */,
+				04E8ACAD1DD3FC8100291F81 /* DaysOfTheWeek.swift in Sources */,
 				045BEFB31DCE5BB300BD2897 /* MultiLineTextField.swift in Sources */,
+				0467E00A1DDA871700FCAB33 /* Goal.swift in Sources */,
 				045BEFB81DCFE79A00BD2897 /* TextInputStylable.swift in Sources */,
-				04AE8E591DCE538400778B6B /* ViewController.swift in Sources */,
+				0404A7D81DD7FE2200F17801 /* NewGoalTableViewController.swift in Sources */,
+				04E8ACA81DD3F7ED00291F81 /* GoalSchedule.swift in Sources */,
+				043C50A81DD95B300094F3D3 /* CellView.swift in Sources */,
+				04E8ACAA1DD3F81000291F81 /* GoalRepeatType.swift in Sources */,
 				04AE8E571DCE538400778B6B /* AppDelegate.swift in Sources */,
+				04E8ACB01DD40ACF00291F81 /* GoalScheduleTableViewController.swift in Sources */,
+				0467E00E1DDAB18300FCAB33 /* InviteContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

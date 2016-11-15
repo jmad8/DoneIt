@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>JTAppleCalendar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-DoneIt.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>673F0933F0DF809F18D724A6D2D66250</key>
+		<key>0E07AEB5348910011F0446468CB70971</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>92BB131FA876445E027D20AE23EA7B5F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BF0221E8569B7BE65F7BA0CBD282D370</key>
 		<dict>
 			<key>primary</key>
 			<true/>

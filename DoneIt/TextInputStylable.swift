@@ -7,7 +7,7 @@ protocol TextInputStylable {
     var borderColorFocus : UIColor { get set }
     
     func addBorderLayer()
-    func updateBorderFrame(x : CGFloat)
+    func updateBorderFrame()
     func updateBorderColor(withColor color : UIColor)
 }
 
@@ -19,8 +19,8 @@ extension TextInputStylable where Self : UIView {
         addSubview(border)
     }
     
-    func updateBorderFrame(x : CGFloat = 0) {
-        border.frame = CGRect(x: 0, y: self.frame.size.height-borderWidth - x, width: self.frame.size.width, height: borderWidth)
+    func updateBorderFrame() {
+        border.frame = CGRect(x: 0, y: self.frame.size.height - borderWidth - 0.5, width: self.frame.size.width, height: borderWidth)
     }
     
     func updateBorderColor(withColor color : UIColor) {

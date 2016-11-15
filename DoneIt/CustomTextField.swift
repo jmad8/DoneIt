@@ -3,6 +3,8 @@ import UIKit
 @IBDesignable
 class CustomTextField: UITextField, UITextFieldDelegate, TextInputStylable {
     
+    private var _originalPlaceholder : String?
+    
     @IBInspectable var borderColor : UIColor = UIColor.red {
         didSet {
             border.backgroundColor = borderColor
@@ -15,7 +17,7 @@ class CustomTextField: UITextField, UITextFieldDelegate, TextInputStylable {
         }
     }
     
-    @IBInspectable var borderWidth : CGFloat = CGFloat(2.0) {
+    @IBInspectable var borderWidth : CGFloat = CGFloat(1.0) {
         didSet {
             updateBorderFrame()
         }
@@ -37,17 +39,24 @@ class CustomTextField: UITextField, UITextFieldDelegate, TextInputStylable {
             NSFontAttributeName : UIFont(name: "Helvetica Neue", size: 17)! // Note the !
         ]
         attributedPlaceholder = NSAttributedString(string: placeholder!, attributes:attributes)
+        _originalPlaceholder = placeholder
         
         borderStyle = .none
         self.delegate = self
         addBorderLayer()
     }
     
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+    
     func textFieldDidBeginEditing(_ textField: UITextField) {
+        placeholder = nil
         updateBorderColor(withColor: borderColorFocus)
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
+        placeholder = _originalPlaceholder
         updateBorderColor(withColor: borderColor)
     }
     
