@@ -15,7 +15,19 @@
 		045BEFB51DCE636500BD2897 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BEFB41DCE636500BD2897 /* CustomTextField.swift */; };
 		045BEFB81DCFE79A00BD2897 /* TextInputStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BEFB71DCFE79A00BD2897 /* TextInputStylable.swift */; };
 		0467E00A1DDA871700FCAB33 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E0091DDA871700FCAB33 /* Goal.swift */; };
-		0467E00E1DDAB18300FCAB33 /* InviteContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E00D1DDAB18300FCAB33 /* InviteContactViewController.swift */; };
+		0467E0101DDAB3DF00FCAB33 /* InviteContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E00F1DDAB3DF00FCAB33 /* InviteContactTableViewController.swift */; };
+		0467E0121DDABC9A00FCAB33 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E0111DDABC9A00FCAB33 /* ContactTableViewCell.swift */; };
+		0467E0141DDBD9D200FCAB33 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E0131DDBD9D200FCAB33 /* FriendTableViewCell.swift */; };
+		0467E0161DDBDB2600FCAB33 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E0151DDBDB2600FCAB33 /* Friend.swift */; };
+		0467E0181DDBDC3200FCAB33 /* AddFriendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E0171DDBDC3200FCAB33 /* AddFriendTableViewController.swift */; };
+		0467E01A1DDBE0DF00FCAB33 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E0191DDBE0DF00FCAB33 /* SignInViewController.swift */; };
+		0467E01F1DDBE2F200FCAB33 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0467E01B1DDBE2F200FCAB33 /* Bolts.framework */; };
+		0467E0201DDBE2F200FCAB33 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0467E01C1DDBE2F200FCAB33 /* FBSDKCoreKit.framework */; };
+		0467E0211DDBE2F200FCAB33 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0467E01D1DDBE2F200FCAB33 /* FBSDKLoginKit.framework */; };
+		0467E0221DDBE2F200FCAB33 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0467E01E1DDBE2F200FCAB33 /* FBSDKShareKit.framework */; };
+		0467E0271DDBE4B400FCAB33 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E0261DDBE4B400FCAB33 /* CustomButton.swift */; };
+		0467E0291DDC16F500FCAB33 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E0281DDC16F500FCAB33 /* CustomNavigationController.swift */; };
+		0467E02B1DDC187A00FCAB33 /* GoalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E02A1DDC187A00FCAB33 /* GoalListViewController.swift */; };
 		04AE8E571DCE538400778B6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE8E561DCE538400778B6B /* AppDelegate.swift */; };
 		04AE8E5C1DCE538400778B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AE8E5A1DCE538400778B6B /* Main.storyboard */; };
 		04AE8E5E1DCE538400778B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AE8E5D1DCE538400778B6B /* Assets.xcassets */; };
@@ -37,7 +49,20 @@
 		045BEFB41DCE636500BD2897 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		045BEFB71DCFE79A00BD2897 /* TextInputStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputStylable.swift; sourceTree = "<group>"; };
 		0467E0091DDA871700FCAB33 /* Goal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
-		0467E00D1DDAB18300FCAB33 /* InviteContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteContactViewController.swift; sourceTree = "<group>"; };
+		0467E00F1DDAB3DF00FCAB33 /* InviteContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteContactTableViewController.swift; sourceTree = "<group>"; };
+		0467E0111DDABC9A00FCAB33 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		0467E0131DDBD9D200FCAB33 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		0467E0151DDBDB2600FCAB33 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		0467E0171DDBDC3200FCAB33 /* AddFriendTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendTableViewController.swift; sourceTree = "<group>"; };
+		0467E0191DDBE0DF00FCAB33 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0467E01B1DDBE2F200FCAB33 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		0467E01C1DDBE2F200FCAB33 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		0467E01D1DDBE2F200FCAB33 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		0467E01E1DDBE2F200FCAB33 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		0467E0231DDBE45600FCAB33 /* DoneIt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoneIt-Bridging-Header.h"; sourceTree = "<group>"; };
+		0467E0261DDBE4B400FCAB33 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		0467E0281DDC16F500FCAB33 /* CustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		0467E02A1DDC187A00FCAB33 /* GoalListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalListViewController.swift; sourceTree = "<group>"; };
 		04AE8E531DCE538400778B6B /* DoneIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoneIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AE8E561DCE538400778B6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04AE8E5B1DCE538400778B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,6 +85,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E38FBA29B969B1086571F08E /* Pods_DoneIt.framework in Frameworks */,
+				0467E0201DDBE2F200FCAB33 /* FBSDKCoreKit.framework in Frameworks */,
+				0467E0221DDBE2F200FCAB33 /* FBSDKShareKit.framework in Frameworks */,
+				0467E0211DDBE2F200FCAB33 /* FBSDKLoginKit.framework in Frameworks */,
+				0467E01F1DDBE2F200FCAB33 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +110,9 @@
 				045BEFB41DCE636500BD2897 /* CustomTextField.swift */,
 				043F1D721DD9575700E48ED0 /* CellView.xib */,
 				043C50A71DD95B300094F3D3 /* CellView.swift */,
+				0467E0111DDABC9A00FCAB33 /* ContactTableViewCell.swift */,
+				0467E0131DDBD9D200FCAB33 /* FriendTableViewCell.swift */,
+				0467E0261DDBE4B400FCAB33 /* CustomButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -121,6 +153,7 @@
 				045BEFB11DCE5B9E00BD2897 /* View */,
 				04E8ACAE1DD40AA800291F81 /* ViewController */,
 				04AE8E561DCE538400778B6B /* AppDelegate.swift */,
+				0467E0231DDBE45600FCAB33 /* DoneIt-Bridging-Header.h */,
 				04AE8E5A1DCE538400778B6B /* Main.storyboard */,
 				04AE8E5D1DCE538400778B6B /* Assets.xcassets */,
 				04AE8E5F1DCE538400778B6B /* LaunchScreen.storyboard */,
@@ -135,6 +168,7 @@
 			children = (
 				04E8ACA71DD3F7ED00291F81 /* GoalSchedule.swift */,
 				0467E0091DDA871700FCAB33 /* Goal.swift */,
+				0467E0151DDBDB2600FCAB33 /* Friend.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -153,7 +187,11 @@
 			children = (
 				04E8ACAF1DD40ACF00291F81 /* GoalScheduleTableViewController.swift */,
 				0404A7D71DD7FE2200F17801 /* NewGoalTableViewController.swift */,
-				0467E00D1DDAB18300FCAB33 /* InviteContactViewController.swift */,
+				0467E00F1DDAB3DF00FCAB33 /* InviteContactTableViewController.swift */,
+				0467E0171DDBDC3200FCAB33 /* AddFriendTableViewController.swift */,
+				0467E0191DDBE0DF00FCAB33 /* SignInViewController.swift */,
+				0467E0281DDC16F500FCAB33 /* CustomNavigationController.swift */,
+				0467E02A1DDC187A00FCAB33 /* GoalListViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -161,6 +199,10 @@
 		85637419F1C2273936E526C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0467E01B1DDBE2F200FCAB33 /* Bolts.framework */,
+				0467E01C1DDBE2F200FCAB33 /* FBSDKCoreKit.framework */,
+				0467E01D1DDBE2F200FCAB33 /* FBSDKLoginKit.framework */,
+				0467E01E1DDBE2F200FCAB33 /* FBSDKShareKit.framework */,
 				695C0D1706832DC9B83478E2 /* Pods_DoneIt.framework */,
 			);
 			name = Frameworks;
@@ -211,6 +253,7 @@
 					04AE8E521DCE538300778B6B = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 4FM6U54YA4;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -302,18 +345,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				045BEFB51DCE636500BD2897 /* CustomTextField.swift in Sources */,
+				0467E0271DDBE4B400FCAB33 /* CustomButton.swift in Sources */,
 				043C50AD1DD965260094F3D3 /* UIColor.swift in Sources */,
 				04E8ACAD1DD3FC8100291F81 /* DaysOfTheWeek.swift in Sources */,
 				045BEFB31DCE5BB300BD2897 /* MultiLineTextField.swift in Sources */,
+				0467E0121DDABC9A00FCAB33 /* ContactTableViewCell.swift in Sources */,
 				0467E00A1DDA871700FCAB33 /* Goal.swift in Sources */,
+				0467E0291DDC16F500FCAB33 /* CustomNavigationController.swift in Sources */,
 				045BEFB81DCFE79A00BD2897 /* TextInputStylable.swift in Sources */,
 				0404A7D81DD7FE2200F17801 /* NewGoalTableViewController.swift in Sources */,
 				04E8ACA81DD3F7ED00291F81 /* GoalSchedule.swift in Sources */,
 				043C50A81DD95B300094F3D3 /* CellView.swift in Sources */,
+				0467E0101DDAB3DF00FCAB33 /* InviteContactTableViewController.swift in Sources */,
 				04E8ACAA1DD3F81000291F81 /* GoalRepeatType.swift in Sources */,
+				0467E0141DDBD9D200FCAB33 /* FriendTableViewCell.swift in Sources */,
 				04AE8E571DCE538400778B6B /* AppDelegate.swift in Sources */,
+				0467E01A1DDBE0DF00FCAB33 /* SignInViewController.swift in Sources */,
 				04E8ACB01DD40ACF00291F81 /* GoalScheduleTableViewController.swift in Sources */,
-				0467E00E1DDAB18300FCAB33 /* InviteContactViewController.swift in Sources */,
+				0467E02B1DDC187A00FCAB33 /* GoalListViewController.swift in Sources */,
+				0467E0181DDBDC3200FCAB33 /* AddFriendTableViewController.swift in Sources */,
+				0467E0161DDBDB2600FCAB33 /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,11 +488,18 @@
 			baseConfigurationReference = F1EAD09B7967ADD44923CD03 /* Pods-DoneIt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 4FM6U54YA4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DoneIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mbv.DoneIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DoneIt/DoneIt-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -451,11 +509,17 @@
 			baseConfigurationReference = E8133F852308BD995D687E48 /* Pods-DoneIt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 4FM6U54YA4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DoneIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mbv.DoneIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DoneIt/DoneIt-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

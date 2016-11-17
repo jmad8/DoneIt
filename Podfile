@@ -8,6 +8,8 @@ target 'DoneIt' do
   # Pods for DoneIt
   pod 'Firebase'
   pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
   pod 'JTAppleCalendar', '~> 6.0'
 
 end

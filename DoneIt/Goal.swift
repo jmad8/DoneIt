@@ -1,4 +1,5 @@
 import Foundation
+import Contacts
 
 struct Goal {
  
@@ -8,6 +9,7 @@ struct Goal {
     var goalSchedule: GoalSchedule
     var startDate: Date
     var endDate: Date
+    var invitedContacts: [CNContact]
     
     init() {
         goalSchedule = GoalSchedule(goalRepeatType: .daily)
@@ -15,5 +17,6 @@ struct Goal {
         description = ""
         startDate = Date()
         endDate = Date()
+        invitedContacts = []
     }
 }
