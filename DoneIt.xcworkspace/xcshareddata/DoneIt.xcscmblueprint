@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F41EEBACA7D167F04A1ADA5D774037E7718E10A7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F41EEBACA7D167F04A1ADA5D774037E7718E10A7" : 9223372036854775807,
+    "FCFCAAC675938B9DFD357C34B916AC0D0B1485EF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "39A1C1CF-C8A2-4BAA-AB64-F52198749477",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F41EEBACA7D167F04A1ADA5D774037E7718E10A7" : "DoneIt\/",
+    "FCFCAAC675938B9DFD357C34B916AC0D0B1485EF" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DoneIt",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DoneIt.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jmad8\/DoneIt.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F41EEBACA7D167F04A1ADA5D774037E7718E10A7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:justinmadsen4\/memory-bank.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FCFCAAC675938B9DFD357C34B916AC0D0B1485EF"
+    }
+  ]
+}

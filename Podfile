@@ -11,5 +11,6 @@ target 'DoneIt' do
   pod 'Firebase/Auth'
   pod 'GoogleSignIn'
   pod 'JTAppleCalendar', '~> 6.0'
-
+  pod 'pop', '~> 1.0'
+  
 end

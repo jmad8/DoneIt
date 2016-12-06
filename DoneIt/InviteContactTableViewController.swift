@@ -6,16 +6,16 @@ class InviteContactTableViewController: UITableViewController {
     var goal: Goal!
     
     private let _contactStore = CNContactStore()
-    private var _invitedContacts: [CNContact]!
+//    private var _invitedContacts: [CNContact]!
     private var _contacts: [CNContact]?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         if goal == nil {
-            goal = Goal()
+            goal = Goal(id: "")
         }
-        _invitedContacts = goal.invitedContacts
+//        _invitedContacts = goal.invitedContacts
         
         tableView.allowsMultipleSelection = true
         
@@ -59,7 +59,7 @@ class InviteContactTableViewController: UITableViewController {
     func back(sender: UIBarButtonItem) {
         _ = navigationController?.popViewController(animated: true)
         if let vc = navigationController?.topViewController as? NewGoalTableViewController {
-            goal.invitedContacts = _invitedContacts
+//            goal.invitedContacts = _invitedContacts
             vc.goal = goal
         }
     }
@@ -89,7 +89,7 @@ class InviteContactTableViewController: UITableViewController {
         guard let contacts = _contacts else {
             return
         }
-        _invitedContacts.append(contacts[indexPath.row])
+//        _invitedContacts.append(contacts[indexPath.row])
     }
 
     override func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
@@ -103,6 +103,6 @@ class InviteContactTableViewController: UITableViewController {
                 break
             }
         }
-        _invitedContacts.remove(at: index)
+//        _invitedContacts.remove(at: index)
     }
 }

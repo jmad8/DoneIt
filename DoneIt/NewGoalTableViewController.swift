@@ -64,6 +64,10 @@ class NewGoalTableViewController: UITableViewController, UITextFieldDelegate, UI
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        goal.title = txtTitle.text ?? ""
+        goal.description = txtDescription.text
+        goal.startDate = dpStartDate.date
+        goal.endDate = dpEndDate.date
         if let vc = segue.destination as? GoalScheduleTableViewController {
             vc.goal = goal
         }
@@ -133,16 +137,21 @@ class NewGoalTableViewController: UITableViewController, UITextFieldDelegate, UI
     }
     
     @IBAction func btnCancelAction(_ sender: Any) {
-        let _ = navigationController?.popViewController(animated: true)
+//        let _ = navigationController?.popViewController(animated: true)
     }
     
     @IBAction func btnCreateAction(_ sender: Any) {
-        //        guard let title = txtTitle.text, !title.isEmpty, !txtDescription.placeholderIsVisible else {
-        //            return
-        //        }
-        //        let newChild = reference.childByAutoId().key
-        //        reference.child(newChild).child("title").setValue(title)
-        //        reference.child(newChild).child("description").setValue(txtDescription.text)
+        guard let title = txtTitle.text, !title.isEmpty, !txtDescription.text.isEmpty else {
+            return
+        }
+        
+        goal.title = title
+        goal.description = txtDescription.text
+        goal.totalParticipants = 1
+        goal.startDate = dpStartDate.date
+        goal.endDate = dpEndDate.date
+        goal.id = _reference.childByAutoId().key
+        _reference.updateChildValues(goal.toDictionary())
     }
     
     //MARK: Private functions

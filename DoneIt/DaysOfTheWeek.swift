@@ -11,19 +11,19 @@ enum DaysOfTheWeek : String {
     
     var intValue: Int {
         switch self {
-        case .monday:
-            return 1
-        case .tuesday:
-            return 2
-        case .wednesday:
-            return 3
-        case .thursday:
-            return 4
-        case .friday:
-            return 5
-        case .saturday:
-            return 6
         case .sunday:
+            return 1
+        case .monday:
+            return 2
+        case .tuesday:
+            return 3
+        case .wednesday:
+            return 4
+        case .thursday:
+            return 5
+        case .friday:
+            return 6
+        case .saturday:
             return 7
         }
     }
@@ -31,6 +31,27 @@ enum DaysOfTheWeek : String {
     static func areWeekDays(_ days : Set<DaysOfTheWeek>) -> Bool {
         let weekDays = Set<DaysOfTheWeek>([.monday, .tuesday, .wednesday, .thursday, .friday])
         return weekDays.isSubset(of: days) && !weekDays.isStrictSubset(of: days)
+    }
+    
+    static func value(from int: Int) -> DaysOfTheWeek? {
+        switch int {
+        case 1:
+            return .sunday
+        case 2:
+            return .monday
+        case 3:
+            return .tuesday
+        case 4:
+            return .wednesday
+        case 5:
+            return .thursday
+        case 6:
+            return .friday
+        case 7:
+            return .saturday
+        default:
+            return nil
+        }
     }
 }
 

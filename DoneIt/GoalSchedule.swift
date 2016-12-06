@@ -78,4 +78,44 @@ struct GoalSchedule {
             }
         }
     }
+    
+    func toDictionary() -> [AnyHashable : Any] {
+        var weekDays = [Int]()
+        for day in daysOfWeek {
+            weekDays.append(day.intValue)
+        }
+        
+        let monthDays = [Int](daysOfMonth)
+        
+        return ["repeat_type" : goalRepeatType.rawValue,
+                "every_amount" : everyAmount,
+                "days_of_week" : weekDays,
+                "days_of_month" : monthDays]
+    }
+    
+    static func fromDictionary(dictionary: [String : AnyObject]) -> GoalSchedule {
+        var schedule = GoalSchedule(goalRepeatType: .daily)
+        for pair in dictionary {
+            if pair.key == "repeat_type", let value = pair.value as? String, let type = GoalRepeatType.type(from: value) {
+                schedule.goalRepeatType = type
+            }
+            if pair.key == "every_amount", let value = pair.value as? Int {
+                schedule.everyAmount = value
+            }
+            if pair.key == "days_of_week", let value = pair.value as? [Int] {
+                for day in value {
+                    if let dayOfWeek = DaysOfTheWeek.value(from: day) {
+                        schedule.daysOfWeek.insert(dayOfWeek)
+                    }
+                }
+            }
+            if pair.key == "days_of_month", let value = pair.value as? [Int] {
+                for day in value {
+                    schedule.daysOfMonth.insert(day)
+                }
+            }
+        }
+        
+        return schedule
+    }
 }

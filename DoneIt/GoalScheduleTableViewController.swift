@@ -80,8 +80,7 @@ class GoalScheduleTableViewController: UITableViewController, UIPickerViewDelega
         switchSunday.isOn = _goalSchedule.daysOfWeek.contains(.sunday)
     }
     
-    func back(sender: UIBarButtonItem) {
-        _ = navigationController?.popViewController(animated: true)
+    func back(sender: UIBarButtonItem) {_ = navigationController?.popViewController(animated: true)
         if let vc = navigationController?.topViewController as? NewGoalTableViewController {
             goal.goalSchedule = _goalSchedule
             vc.goal = goal
@@ -266,10 +265,8 @@ class GoalScheduleTableViewController: UITableViewController, UIPickerViewDelega
     }
     
     private func getDate(dayOfMonth: Int) -> Date {
-        let formatter = DateFormatter()
-        formatter.dateFormat = "yyyy MM dd"
         //May of 2016 is a good month to display here because the first day is a Monday and there are 31 days
-        return formatter.date(from: "2016 05 \(dayOfMonth)")!
+        return Date.date(from: "2016-5-\(dayOfMonth)")!
     }
     
 }

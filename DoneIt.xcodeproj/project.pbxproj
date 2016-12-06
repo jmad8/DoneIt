@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0404A7D81DD7FE2200F17801 /* NewGoalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404A7D71DD7FE2200F17801 /* NewGoalTableViewController.swift */; };
+		042BE2F91DE2251100B821D2 /* GoalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042BE2F81DE2251100B821D2 /* GoalDetailViewController.swift */; };
+		042BE2FB1DE2561E00B821D2 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042BE2FA1DE2561E00B821D2 /* SettingsTableViewController.swift */; };
 		043C50A81DD95B300094F3D3 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C50A71DD95B300094F3D3 /* CellView.swift */; };
 		043C50AD1DD965260094F3D3 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C50AC1DD965260094F3D3 /* UIColor.swift */; };
 		043F1D731DD9575700E48ED0 /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043F1D721DD9575700E48ED0 /* CellView.xib */; };
@@ -17,7 +19,7 @@
 		0467E00A1DDA871700FCAB33 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E0091DDA871700FCAB33 /* Goal.swift */; };
 		0467E0101DDAB3DF00FCAB33 /* InviteContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E00F1DDAB3DF00FCAB33 /* InviteContactTableViewController.swift */; };
 		0467E0121DDABC9A00FCAB33 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E0111DDABC9A00FCAB33 /* ContactTableViewCell.swift */; };
-		0467E0141DDBD9D200FCAB33 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E0131DDBD9D200FCAB33 /* FriendTableViewCell.swift */; };
+		0467E0141DDBD9D200FCAB33 /* AddFriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E0131DDBD9D200FCAB33 /* AddFriendTableViewCell.swift */; };
 		0467E0161DDBDB2600FCAB33 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E0151DDBDB2600FCAB33 /* Friend.swift */; };
 		0467E0181DDBDC3200FCAB33 /* AddFriendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E0171DDBDC3200FCAB33 /* AddFriendTableViewController.swift */; };
 		0467E01A1DDBE0DF00FCAB33 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E0191DDBE0DF00FCAB33 /* SignInViewController.swift */; };
@@ -33,15 +35,28 @@
 		04AE8E5E1DCE538400778B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AE8E5D1DCE538400778B6B /* Assets.xcassets */; };
 		04AE8E611DCE538400778B6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AE8E5F1DCE538400778B6B /* LaunchScreen.storyboard */; };
 		04BA18041DCE54DF000B30A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04BA18031DCE54DF000B30A7 /* GoogleService-Info.plist */; };
+		04BD42851DF4E48300BDED54 /* FirebaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD42841DF4E48300BDED54 /* FirebaseObject.swift */; };
+		04BD42871DF6304000BDED54 /* UserFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD42861DF6304000BDED54 /* UserFriendsViewController.swift */; };
+		04BD42891DF6331200BDED54 /* UserFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD42881DF6331200BDED54 /* UserFriend.swift */; };
+		04BD428B1DF6337F00BDED54 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD428A1DF6337F00BDED54 /* FriendTableViewCell.swift */; };
+		04D9116A1DEB8EF7002DF12F /* GoalProgressControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D911691DEB8EF7002DF12F /* GoalProgressControl.swift */; };
+		04D9116C1DEBFD95002DF12F /* GoalProgressCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9116B1DEBFD95002DF12F /* GoalProgressCollectionViewCell.swift */; };
+		04D912281DEE8AA600B903C1 /* GoalDone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D912271DEE8AA600B903C1 /* GoalDone.swift */; };
+		04D9122A1DEFDDE800B903C1 /* GoalHistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D912291DEFDDE800B903C1 /* GoalHistoryItem.swift */; };
+		04D9122C1DEFE0CE00B903C1 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9122B1DEFE0CE00B903C1 /* Date.swift */; };
 		04E8ACA81DD3F7ED00291F81 /* GoalSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8ACA71DD3F7ED00291F81 /* GoalSchedule.swift */; };
 		04E8ACAA1DD3F81000291F81 /* GoalRepeatType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8ACA91DD3F81000291F81 /* GoalRepeatType.swift */; };
 		04E8ACAD1DD3FC8100291F81 /* DaysOfTheWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8ACAC1DD3FC8100291F81 /* DaysOfTheWeek.swift */; };
 		04E8ACB01DD40ACF00291F81 /* GoalScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8ACAF1DD40ACF00291F81 /* GoalScheduleTableViewController.swift */; };
+		04FBB4FC1DF637300004BD0A /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBB4FB1DF637300004BD0A /* AddFriendViewController.swift */; };
+		04FBB4FE1DF6382D0004BD0A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBB4FD1DF6382D0004BD0A /* User.swift */; };
 		E38FBA29B969B1086571F08E /* Pods_DoneIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695C0D1706832DC9B83478E2 /* Pods_DoneIt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0404A7D71DD7FE2200F17801 /* NewGoalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGoalTableViewController.swift; sourceTree = "<group>"; };
+		042BE2F81DE2251100B821D2 /* GoalDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalDetailViewController.swift; sourceTree = "<group>"; };
+		042BE2FA1DE2561E00B821D2 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		043C50A71DD95B300094F3D3 /* CellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 		043C50AC1DD965260094F3D3 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		043F1D721DD9575700E48ED0 /* CellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
@@ -51,7 +66,7 @@
 		0467E0091DDA871700FCAB33 /* Goal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
 		0467E00F1DDAB3DF00FCAB33 /* InviteContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteContactTableViewController.swift; sourceTree = "<group>"; };
 		0467E0111DDABC9A00FCAB33 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
-		0467E0131DDBD9D200FCAB33 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		0467E0131DDBD9D200FCAB33 /* AddFriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendTableViewCell.swift; sourceTree = "<group>"; };
 		0467E0151DDBDB2600FCAB33 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		0467E0171DDBDC3200FCAB33 /* AddFriendTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendTableViewController.swift; sourceTree = "<group>"; };
 		0467E0191DDBE0DF00FCAB33 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -70,10 +85,21 @@
 		04AE8E601DCE538400778B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04AE8E621DCE538400778B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04BA18031DCE54DF000B30A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04BD42841DF4E48300BDED54 /* FirebaseObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseObject.swift; sourceTree = "<group>"; };
+		04BD42861DF6304000BDED54 /* UserFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFriendsViewController.swift; sourceTree = "<group>"; };
+		04BD42881DF6331200BDED54 /* UserFriend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFriend.swift; sourceTree = "<group>"; };
+		04BD428A1DF6337F00BDED54 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		04D911691DEB8EF7002DF12F /* GoalProgressControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalProgressControl.swift; sourceTree = "<group>"; };
+		04D9116B1DEBFD95002DF12F /* GoalProgressCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalProgressCollectionViewCell.swift; sourceTree = "<group>"; };
+		04D912271DEE8AA600B903C1 /* GoalDone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalDone.swift; sourceTree = "<group>"; };
+		04D912291DEFDDE800B903C1 /* GoalHistoryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalHistoryItem.swift; sourceTree = "<group>"; };
+		04D9122B1DEFE0CE00B903C1 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		04E8ACA71DD3F7ED00291F81 /* GoalSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalSchedule.swift; sourceTree = "<group>"; };
 		04E8ACA91DD3F81000291F81 /* GoalRepeatType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalRepeatType.swift; sourceTree = "<group>"; };
 		04E8ACAC1DD3FC8100291F81 /* DaysOfTheWeek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysOfTheWeek.swift; sourceTree = "<group>"; };
 		04E8ACAF1DD40ACF00291F81 /* GoalScheduleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalScheduleTableViewController.swift; sourceTree = "<group>"; };
+		04FBB4FB1DF637300004BD0A /* AddFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		04FBB4FD1DF6382D0004BD0A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		695C0D1706832DC9B83478E2 /* Pods_DoneIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoneIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8133F852308BD995D687E48 /* Pods-DoneIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoneIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoneIt/Pods-DoneIt.release.xcconfig"; sourceTree = "<group>"; };
 		F1EAD09B7967ADD44923CD03 /* Pods-DoneIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoneIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoneIt/Pods-DoneIt.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				043C50AC1DD965260094F3D3 /* UIColor.swift */,
+				04D9122B1DEFE0CE00B903C1 /* Date.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -111,8 +138,11 @@
 				043F1D721DD9575700E48ED0 /* CellView.xib */,
 				043C50A71DD95B300094F3D3 /* CellView.swift */,
 				0467E0111DDABC9A00FCAB33 /* ContactTableViewCell.swift */,
-				0467E0131DDBD9D200FCAB33 /* FriendTableViewCell.swift */,
+				0467E0131DDBD9D200FCAB33 /* AddFriendTableViewCell.swift */,
 				0467E0261DDBE4B400FCAB33 /* CustomButton.swift */,
+				04D911691DEB8EF7002DF12F /* GoalProgressControl.swift */,
+				04D9116B1DEBFD95002DF12F /* GoalProgressCollectionViewCell.swift */,
+				04BD428A1DF6337F00BDED54 /* FriendTableViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -169,6 +199,11 @@
 				04E8ACA71DD3F7ED00291F81 /* GoalSchedule.swift */,
 				0467E0091DDA871700FCAB33 /* Goal.swift */,
 				0467E0151DDBDB2600FCAB33 /* Friend.swift */,
+				04D912271DEE8AA600B903C1 /* GoalDone.swift */,
+				04D912291DEFDDE800B903C1 /* GoalHistoryItem.swift */,
+				04BD42841DF4E48300BDED54 /* FirebaseObject.swift */,
+				04BD42881DF6331200BDED54 /* UserFriend.swift */,
+				04FBB4FD1DF6382D0004BD0A /* User.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -185,13 +220,17 @@
 		04E8ACAE1DD40AA800291F81 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				04E8ACAF1DD40ACF00291F81 /* GoalScheduleTableViewController.swift */,
+				0467E02A1DDC187A00FCAB33 /* GoalListViewController.swift */,
+				042BE2F81DE2251100B821D2 /* GoalDetailViewController.swift */,
 				0404A7D71DD7FE2200F17801 /* NewGoalTableViewController.swift */,
+				04E8ACAF1DD40ACF00291F81 /* GoalScheduleTableViewController.swift */,
 				0467E00F1DDAB3DF00FCAB33 /* InviteContactTableViewController.swift */,
 				0467E0171DDBDC3200FCAB33 /* AddFriendTableViewController.swift */,
 				0467E0191DDBE0DF00FCAB33 /* SignInViewController.swift */,
 				0467E0281DDC16F500FCAB33 /* CustomNavigationController.swift */,
-				0467E02A1DDC187A00FCAB33 /* GoalListViewController.swift */,
+				042BE2FA1DE2561E00B821D2 /* SettingsTableViewController.swift */,
+				04BD42861DF6304000BDED54 /* UserFriendsViewController.swift */,
+				04FBB4FB1DF637300004BD0A /* AddFriendViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -247,7 +286,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Justin Madsen";
 				TargetAttributes = {
 					04AE8E521DCE538300778B6B = {
@@ -350,21 +389,34 @@
 				04E8ACAD1DD3FC8100291F81 /* DaysOfTheWeek.swift in Sources */,
 				045BEFB31DCE5BB300BD2897 /* MultiLineTextField.swift in Sources */,
 				0467E0121DDABC9A00FCAB33 /* ContactTableViewCell.swift in Sources */,
+				04D912281DEE8AA600B903C1 /* GoalDone.swift in Sources */,
+				04BD42851DF4E48300BDED54 /* FirebaseObject.swift in Sources */,
 				0467E00A1DDA871700FCAB33 /* Goal.swift in Sources */,
+				04BD42891DF6331200BDED54 /* UserFriend.swift in Sources */,
 				0467E0291DDC16F500FCAB33 /* CustomNavigationController.swift in Sources */,
+				042BE2F91DE2251100B821D2 /* GoalDetailViewController.swift in Sources */,
 				045BEFB81DCFE79A00BD2897 /* TextInputStylable.swift in Sources */,
 				0404A7D81DD7FE2200F17801 /* NewGoalTableViewController.swift in Sources */,
 				04E8ACA81DD3F7ED00291F81 /* GoalSchedule.swift in Sources */,
+				04BD428B1DF6337F00BDED54 /* FriendTableViewCell.swift in Sources */,
 				043C50A81DD95B300094F3D3 /* CellView.swift in Sources */,
 				0467E0101DDAB3DF00FCAB33 /* InviteContactTableViewController.swift in Sources */,
 				04E8ACAA1DD3F81000291F81 /* GoalRepeatType.swift in Sources */,
-				0467E0141DDBD9D200FCAB33 /* FriendTableViewCell.swift in Sources */,
+				0467E0141DDBD9D200FCAB33 /* AddFriendTableViewCell.swift in Sources */,
+				04D9116C1DEBFD95002DF12F /* GoalProgressCollectionViewCell.swift in Sources */,
 				04AE8E571DCE538400778B6B /* AppDelegate.swift in Sources */,
 				0467E01A1DDBE0DF00FCAB33 /* SignInViewController.swift in Sources */,
 				04E8ACB01DD40ACF00291F81 /* GoalScheduleTableViewController.swift in Sources */,
+				04FBB4FE1DF6382D0004BD0A /* User.swift in Sources */,
 				0467E02B1DDC187A00FCAB33 /* GoalListViewController.swift in Sources */,
 				0467E0181DDBDC3200FCAB33 /* AddFriendTableViewController.swift in Sources */,
+				04D9122C1DEFE0CE00B903C1 /* Date.swift in Sources */,
+				04D9116A1DEB8EF7002DF12F /* GoalProgressControl.swift in Sources */,
+				042BE2FB1DE2561E00B821D2 /* SettingsTableViewController.swift in Sources */,
+				04D9122A1DEFDDE800B903C1 /* GoalHistoryItem.swift in Sources */,
+				04FBB4FC1DF637300004BD0A /* AddFriendViewController.swift in Sources */,
 				0467E0161DDBDB2600FCAB33 /* Friend.swift in Sources */,
+				04BD42871DF6304000BDED54 /* UserFriendsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +460,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -458,6 +511,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -487,6 +541,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F1EAD09B7967ADD44923CD03 /* Pods-DoneIt.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 4FM6U54YA4;
@@ -508,6 +563,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E8133F852308BD995D687E48 /* Pods-DoneIt.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 4FM6U54YA4;
